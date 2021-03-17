@@ -1,6 +1,6 @@
 
 blueprint:
-  name: Leak detection & notifier
+  name: Leak detection & notifier BP
   description: Send a notification when any configured moisture sensor becomes moist
   domain: automation
   input:
