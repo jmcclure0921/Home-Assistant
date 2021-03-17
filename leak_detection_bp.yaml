@@ -20,7 +20,7 @@ condition:
   - condition: template
     value_template: '{{ trigger.event.data.new_state.attributes.device_class == "moisture" }}'
   - condition: template
-    value_template: '{{ trigger.event.data.new_state.state == "wet" }}'
+    value_template: '{{ trigger.event.data.new_state.state == "on" }}'
 
 action:
   domain: mobile_app
